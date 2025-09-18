@@ -1,0 +1,97 @@
+/* src\components\InfoTime\style.css */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(120deg, #b60000, #b96414);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.info-time {
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 100px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.logo {
+  width: 250px;
+  height: auto;
+  border: 8px solid #b60000;
+  border-radius: 9px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #b60000;
+}
+
+.form-adicionar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.form-adicionar input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border 0.2s;
+}
+
+.form-adicionar input:focus {
+  border-color: #b60000;
+  outline: none;
+}
+
+.form-adicionar button {
+  padding: 10px;
+  background-color: #b60000;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-adicionar button:hover {
+  background-color: #a10000;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+li {
+  background-color: #f7f7f7;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-left: 5px solid #b60000;
+}
+
+.numero {
+  font-weight: bold;
+  color: #b60000;
+}
